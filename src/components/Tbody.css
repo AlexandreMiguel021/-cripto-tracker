@@ -1,0 +1,99 @@
+ .coin-container {
+    display: flex;
+    justify-content: center;
+ }
+
+ .coin-percente {
+    width: 180px;
+ }
+
+ .red {
+    color: #f00606;
+ }
+
+ .green {
+    color: #11d811;
+ }
+
+ table {
+    margin: 30px 0;
+    padding: 0;
+    width: 90%;
+    table-layout: fixed;
+    border-collapse: collapse;
+ }
+
+ table h2 {
+    font-size: 18px;
+ }
+
+ table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+ }
+
+ table tr {
+    padding: .35em;
+ }
+
+ table img {
+    width: 25px;
+ }
+
+ table th,
+ table td {
+    padding: .625em;
+    text-align: center;
+ }
+
+ table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+ }
+
+ @media screen and (max-width: 850px) {
+    table {
+       border: 0;
+       width: 70%;
+    }
+
+    table caption {
+       font-size: 1.3em;
+    }
+
+    table thead {
+       clip: rect(0 0 0 0);
+       height: 1px;
+       margin: -1px;
+       overflow: hidden;
+       padding: 0;
+       position: absolute;
+       width: 1px;
+    }
+
+    table tr {
+       border: none;
+       display: block;
+       margin-bottom: .625em;
+    }
+
+    table td {
+       border-bottom: 1px solid #353535;
+       display: block;
+       font-size: .8em;
+       text-align: right;
+
+    }
+
+    table td::before {
+       content: attr(data-label);
+       float: left;
+       font-weight: bold;
+       text-transform: uppercase;
+    }
+
+    table td:last-child {
+       border-bottom: 0;
+    }
+ }
