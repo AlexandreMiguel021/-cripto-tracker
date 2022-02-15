@@ -2,7 +2,7 @@
 
 ## 📑 Sobre
 
-<p>Buscar dados  de criptomoedas como, preço, nome, volume, valaorização e desvalorização utilizando coingecko API.</p>
+<p>Buscar dados  de criptomoedas como, preço, nome, volume, valorização e desvalorização utilizando coingecko API.</p>
 
 ## 💻 Demonstração
 
